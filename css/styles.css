@@ -1,0 +1,53 @@
+body {
+    font-family: "Times New Roman", serif; /* Основной шрифт */
+    font-size: 12pt; /* Размер шрифта */
+    margin: 0; /* Убираем стандартные отступы body */
+    background-color: #f0f0f0; /* Светло-серый фон */
+}
+
+.page-container {
+    width: 800px; /* Ширина контейнера */
+    margin: 20px auto; /* Центрирование контейнера */
+    background-color: white; /* Белый фон контента */
+    border: 1px solid #ccc; /* Серая рамка */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.content-container {
+    padding: 20px; /* Отступы внутри контейнера контента */
+}
+
+h1 {
+    font-size: 16pt; /* Размер заголовка */
+    text-align: center; /* Выравнивание по центру */
+    margin-bottom: 1em; /* Отступ снизу */
+}
+
+p {
+    text-align: justify; /* Выравнивание по ширине */
+    margin-bottom: 0.5em; /* Отступ снизу */
+    line-height: 1.2em; /* Межстрочный интервал */
+}
+
+ul {
+    list-style-type: disc; /* Маркеры списка - точки */
+    padding-left: 20px; /* Отступ слева для списка */
+    margin-bottom: 1em;
+}
+
+ul li {
+    margin-bottom: 0.25em; /* Отступ между элементами списка */
+}
+
+/* Стили для кавычек в списке */
+ul li:before {
+    content: "• "; /* Добавляем маркер в виде точки перед каждым элементом списка */
+}
+ul li q {
+   
+  font-style: italic;
+}
+
+li {
+    font-weight: bold;
+}
